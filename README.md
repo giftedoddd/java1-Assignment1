@@ -9,6 +9,7 @@ subtitle: "Assignment 1: Safety First!"
 
 In the B@MER reactor, the engineers are analyzing some unusual data.
 The unusual data consists of many reports, one report per line. Each report is a series of numbers called levels that are separated by spaces. For example:
+
 ```
 7 6 4 2 1
 1 2 7 8 9
@@ -17,6 +18,7 @@ The unusual data consists of many reports, one report per line. Each report is a
 8 6 4 4 1
 1 3 6 7 9
 ```
+
 This example data contains six reports each containing five levels.
 
 The engineers are trying to figure out which reports are safe. The B@MER reactor safety systems can only tolerate levels that are either gradually increasing or gradually decreasing. So, a report only counts as safe if both of the following are true:
@@ -35,7 +37,6 @@ So, in this example, 3 reports are safe.
 
 Analyze the unusual data from the engineers. How many reports are safe?
 
-\pagebreak
 ---
 
 **Input**
@@ -53,7 +54,8 @@ Print one integer — the number of the safe reports.
 - Example 1
 
 **Input**
-```java
+
+```
 6 5
 7 6 4 2 1
 1 2 7 8 9
@@ -62,30 +64,36 @@ Print one integer — the number of the safe reports.
 8 6 4 4 1
 1 3 6 7 9
 ```
+
 **Output**
-```java
+
+```
 3
 ```
 
 - Example 2
 
 **Input**
-```java
+
+```
 4 6
 9 8 8 7 7 6
 1 2 3 4 5 6
 6 6 6 6 6 6
 0 1 2 5 5 9
 ```
+
 **Output**
-```java
+
+```
 3
 ```
-\pagebreak
+
 - Example 3
 
 **Input**
-```java
+
+```
 6 4
 3 1 1 2
 0 2 1 0
@@ -94,14 +102,9 @@ Print one integer — the number of the safe reports.
 9 8 7 3
 9 9 9 1
 ```
+
 **Output**
-```java
+
+```
 0
 ```
-
-
-**Note**
-
-Your code will be tested with MOSS system(measure of software similarity) and will be checked for plagiarism and usage AI(Including ChatGPT).
-Be careful with the input and output format. The input and output format should be exactly the same as the example. Otherwise, you will get a wrong answer and you will lose points. An Online Judge([Link](https://www.domjudge.org/)) will perform scoring the code, any hardcoded example in the code will be ignored by the system. Your code should be able to work with different testcases. The file format for submission is `StudentID_Assignment1.java`, where the `StudentID` is your Biruni University Student ID. Obviously if the file format is different the system will not be able to grade the submission. Your submission will be graded by 10 different testcases, each testcase is worth 10 points. The total score for this assignment is 100 points.
-
