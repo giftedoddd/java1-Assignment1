@@ -49,7 +49,7 @@ public class Main {
                 } else if (difference < 0) {
                     direction--;
                 }else {
-                    if (direction > 0){
+                    if (direction >= 0){
                         direction++;
                     }else {
                         direction--;
